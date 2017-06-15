@@ -128,7 +128,7 @@ declare interface BotKitTask<M extends BotKitMessage> {
 }
 
 declare interface BotKitMessage {
-  user: any;
+  user?: any;
   channel?: any;
   text?: string;
   type?: string;
